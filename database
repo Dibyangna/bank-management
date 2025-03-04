@@ -1,0 +1,4 @@
+create database BankingManagementSystem;
+use BankingManagementSystem;
+CREATE TABLE bank_users ( id INT PRIMARY KEY AUTO_INCREMENT, username VARCHAR(255) NOT NULL, password VARCHAR(255) NOT NULL, account varchar(50) NOT NULL,balance DECIMAL(10, 2) DEFAULT 0);
+select*from bank_users;
